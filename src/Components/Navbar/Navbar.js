@@ -27,7 +27,7 @@ const Navbar = () => {
           <Link className="text-decoration-none pe-2 text-light btn" to={`/report`}>My Report</Link>
 
           {user?.email ?
-            <Link className="text-decoration-none pe-2 text-light btn" to={`/service/:${id}`}>My Bill</Link>
+            <Link className="text-decoration-none pe-2 text-light btn" to={`/billing`}>My Bill</Link>
             :
             <Link className="text-decoration-none pe-2 text-light btn" to="/appointment">About us</Link>
           }

@@ -37,7 +37,7 @@ const ServiceDetails = () => {
                     <p className="text-danger fw-bold">Cost of this Test: ${service?.price}</p>
                     
                     {/* onClick={handelConfirmAppointment} */}
-                    <Link to =""><button  className="btn btn-warning fw-bold">Confairm Appoinment</button></Link>
+                    <Link to =""><button className="btn btn-warning fw-bold">Confairm Appoinment</button></Link>
 
                 </div>
             </div>

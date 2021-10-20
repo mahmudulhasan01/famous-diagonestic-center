@@ -1,5 +1,6 @@
 import { BrowserRouter, Switch, Route } from 'react-router-dom';
 import './App.css';
+import Bill from './Components/Bill/Bill';
 import Footer from './Components/Footer/Foooter';
 import Home from './Components/Home/Home';
 import Login from './Components/Login/Login';
@@ -46,6 +47,9 @@ function App() {
 
           <PrivateRoute exact path='/report'>
           <MyReport></MyReport>
+          </PrivateRoute>
+          <PrivateRoute exact path='/billing'>
+          <Bill></Bill>
           </PrivateRoute>
 
           <Route exact path="*">

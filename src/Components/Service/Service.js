@@ -21,9 +21,8 @@ const Service = (props) => {
                  <button className="btn btn-warning shadow-lg me-3 px-4
                  ">Details</button>
                </Link>
-               <Link to={`/service/${id}`}>
-                 <button  className="btn btn-info shadow-lg">Book   Appointment</button>
-               </Link>
+              <button className="btn btn-info shadow-lg">Book   Appointment</button>
+              
                </div>
                
            </div>
