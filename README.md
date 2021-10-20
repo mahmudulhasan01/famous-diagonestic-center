@@ -1,30 +1,16 @@
 # Famous Diagonostic Center...
 
-This project was bootstrapped with [Famous Diagonostic Center](https://famous-daigonostic-center.web.app/home).
+Click Heare for Live site :=> [Famous Diagonostic Center](https://famous-daigonostic-center.web.app/home).
 
 ## Inorfamtin About This WebSite 
 
-In the project directory, you can run:
+* 1. This is a Website for a diagonestic center.
+* 2. There present The information about our services.
+* 3. You can book a appointment.
+* 4. There has user Indivisual information.
+* 5. [Click here for more Infformation] (https://famous-daigonostic-center.web.app/home)
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+### `Live Website Link Bellow`
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+* Click Heare for Live site :=> [Famous Diagonostic Center](https://famous-daigonostic-center.web.app/home).
