@@ -5,6 +5,7 @@ import Home from './Components/Home/Home';
 import Login from './Components/Login/Login';
 import PrivateRoute from './Components/Login/PrivateRoute/PrivateRoute';
 import Appointment from './Components/myAppointment/Appointment';
+import MyReport from './Components/MyReport/MyReport';
 import Navbar from './Components/Navbar/Navbar';
 import Notfound from './Components/NotFound/NotFound';
 import ServiceDetails from './Components/ServiceDetails/ServiceDetails';
@@ -42,6 +43,11 @@ function App() {
           <PrivateRoute exact path='/appointment'>
           <Appointment></Appointment>
           </PrivateRoute>
+
+          <PrivateRoute exact path='/report'>
+          <MyReport></MyReport>
+          </PrivateRoute>
+
           <Route exact path="*">
             <Notfound></Notfound>
           </Route>

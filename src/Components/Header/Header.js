@@ -8,12 +8,12 @@ const Header = () => {
 
             <div className="position-absolute ms-5 mt-5">
                 <div>
-                <h1 className="">
+                <h1 className="fw-bold">
                     <span className="costom-text-color">FAMOUS DAIGONOSTIC CENTER </span>
                     <br /> <br /> WE CARE ABOUT <br />
                 ABOUT <span className="costom-text-color">HEALTH</span></h1>
 
-                <button className="">
+                <button className="btn btn-warning fw-bold">
                 About Us
                 </button>
              </div>  

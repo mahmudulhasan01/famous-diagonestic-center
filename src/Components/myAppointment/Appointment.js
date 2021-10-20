@@ -23,10 +23,9 @@ const Appointment = (props) => {
         
 
     return (
-        <div className="">
-            <h1>Mahmudul Hasan</h1>
-            <h1>Mahmudul Hasan</h1>
-            <h1>Mahmudul Hasan</h1>
+        <div className="my-5 pt-5 pb-5 text-center">
+            <h1 className=" fw-bold pt-5">This section under Devoloper Constraction</h1>
+            <h4 className=" fw-bold pb-5 text-danger">Realese Soon...</h4>
             
         </div>
     );

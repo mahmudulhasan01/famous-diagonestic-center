@@ -1,15 +1,11 @@
 import React from 'react';  
 import { Link } from 'react-router-dom';
-import { HashLink } from 'react-router-hash-link';
-import LoadData from '../../hooks/LoadData';
 import useAuth from '../../hooks/useAuth';
 import { useParams } from 'react-router';
 
 
 const Navbar = () => {
-  const {id} = useParams
-  
-  ();
+  const {id} = useParams();
    
   
     const {user, logOut} = useAuth()
@@ -24,13 +20,22 @@ const Navbar = () => {
           {/* <a as={HashLink}   className="text-decoration-none pe-2 text-light btn" to="/home#services">Service</a> */}
 
           
-            {/* <Link className="text-decoration-none pe-2 text-light btn" to={`/service/:${id}`}>Service</Link> */}
 
           <Link className="text-decoration-none pe-2 text-light btn" to="/appointment">My Appoinment</Link>
-          
 
+          
+          <Link className="text-decoration-none pe-2 text-light btn" to={`/report`}>My Report</Link>
+
+          {user?.email ?
+            <Link className="text-decoration-none pe-2 text-light btn" to={`/service/:${id}`}>My Bill</Link>
+            :
+            <Link className="text-decoration-none pe-2 text-light btn" to="/appointment">About us</Link>
+          }
+          
+          
           {user?.email?
                     <button onClick={logOut} className=" text-light btn">LogOut</button>
+                    
 
                    :
                    <Link className="text-decoration-none pe-2 text-light btn" to="/login">Login</Link>

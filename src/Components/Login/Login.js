@@ -1,9 +1,23 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { Link, useLocation, useHistory } from 'react-router-dom';
 import useAuth from '../../hooks/useAuth';
 
 const Login = () => {
     const {singInUseingGoogle, singInUseingGithub, error} = useAuth();
+
+    const location = useLocation();
+    const history = useHistory()
+    const redirect_uri = location.state?.from || '/home'
+
+    const handeleGoogleLogin = () => {
+      singInUseingGoogle()
+      .then(result=>{
+        
+        history.push(redirect_uri)
+
+    })
+
+    }
 
 
 
@@ -32,7 +46,7 @@ const Login = () => {
 </form>                                                                     
 
       
-   <button onClick={singInUseingGoogle} className="bg-dark rounded p-1 px-3 me-4 btn"><i className="fab fa-google text-warning fs-3"></i></button>
+   <button onClick={handeleGoogleLogin} className="bg-dark rounded p-1 px-3 me-4 btn"><i className="fab fa-google text-warning fs-3"></i></button>
 
 <button onClick={singInUseingGithub} className="bg-dark rounded p-1 px-3 me-4 btn"><i className="fab fa-github-square text-warning fs-3"></i></button>
 
