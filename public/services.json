@@ -1,0 +1,122 @@
+[
+    {
+        "id": 1,
+        "name": "Digital Ultrasonogram",
+        "img": "https://i.ibb.co/bPtvW1F/Isometric-gastroenterology-composition-with-doctor-screening-patient-with-ultrasound-vector-illustra.jpg",
+        "titele": "Health is a state of complete physical, mental and social well-being and not merely the absence of disease or infirmity.",
+        "description": "Also known as sonography, ultrasound imaging uses a small transducer (probe) to both transmit sound waves into the body and record the waves that echo back. Sound waves travel into the area being examined until they hit a boundary between tissues, such as between fluid and soft tissue, or soft tissue and bone.",
+        "price": 20,
+        "discountprice": 15,
+        "accuracy": 97,
+        "totalcase": 3310,
+        "rating": 4.5
+    },
+    {
+        "id": 2,
+        "name": "Computarized E.C.G",
+        "img": "https://i.ibb.co/McWMWj9/2-computeraized-ecj.png",
+        "titele": "Health is a state of complete physical, mental and social well-being and not merely the absence of disease or infirmity.",
+        "description": "An electrocardiogram (ECG) is a simple test that can be used to check your heart's rhythm and electrical activity. Sensors attached to the skin are used to detect the electrical signals produced by your heart each time it beats.",
+        "price": 60,
+        "discountprice": 50,
+        "accuracy": 93,
+        "totalcase": 13070,
+        "rating": 4
+    },
+    {
+        "id": 3,
+        "name": "Elotrolaites",
+        "img": "https://i.ibb.co/McWMWj9/2-computeraized-ecj.png",
+        "titele": "Health is a state of complete physical, mental and social well-being and not merely the absence of disease or infirmity.",
+        "description": "ER doctors ruled out heart attack and cardiovascular disease. He felt better, but the leg numbness remained. Wanting to understand what had happened, he asked the specialists what he could do to prevent another frightening episode. “Drink Pedialyte®,” they told him, “and cut back on the green tea",
+        "price": 15,
+        "discountprice": 13,
+        "accuracy": 96,
+        "totalcase": 2860,
+        "rating": 4.5
+    },
+    {
+        "id": 4,
+        "name": "Hormone Test",
+        "img": "https://i.ibb.co/WxTGvdP/4-hormun-test-4.png",
+        "titele": "Health is a state of complete physical, mental and social well-being and not merely the absence of disease or infirmity.",
+        "description": "Test tubes with blood sample for thyroid hormone. Science and chemistry laboratory. Research in organic endocrine hormone. Laboratory of triiodothyronine in hospital. Tricorone test-tritony or hyperthyroidism or thyroid hormone blood sample in a science research analyzing laboratory lab for medicine.",
+        "price": 18,
+        "discountprice": 14,
+        "accuracy": 92,
+        "totalcase": 2187,
+        "rating": 4.5
+    },
+    {
+        "id": 5,
+        "name": "Eco-Cardiogram",
+        "img": "https://i.ibb.co/mqBCmf2/5-ecocardiogram.jpg",
+        "titele": "Health is a state of complete physical, mental and social well-being and not merely the absence of disease or infirmity.",
+        "description": "An echocardiogram, or echo, is a scan used to look at the heart and nearby blood vessels. It's a type of ultrasound scan, which means a small probe is used to send out high-frequency sound waves that create echoes when they bounce off different parts of the body.",
+        "price": 99,
+        "discountprice": 78,
+        "accuracy": 87,
+        "totalcase": 1670,
+        "rating": 4
+    },
+    {
+        "id": 6,
+        "name": "Computerized Pathology",
+        "img": "https://i.ibb.co/qdcVdb3/6-pathology.png",
+        "titele": "Health is a state of complete physical, mental and social well-being and not merely the absence of disease or infirmity.",
+        "description": "Typical examples include cervical smear, sputum and gastric washings. Forensic pathology involves the post mortem examination of a corpse for cause of death using a process called autopsy. Dermatopathology concerns the study of skin diseases.",
+        "price": 78,
+        "discountprice": 65,
+        "accuracy": 97,
+        "totalcase": 1800,
+        "rating": 4.5
+    },
+    {
+        "id": 7,
+        "name": "x-ray",
+        "img": "https://i.ibb.co/x3DtctJ/7-x-ray-7.png",
+        "titele": "Health is a state of complete physical, mental and social well-being and not merely the absence of disease or infirmity.",
+        "description": "Through experimentation, he found that the mysterious light would pass through most substances but leave shadows of solid objects. Because he did not know what the rays were, he called them 'X,' meaning 'unknown,' rays.",
+        "price": 17,
+        "discountprice": 15,
+        "accuracy": 97,
+        "totalcase": 2170,
+        "rating": 4.5
+    },
+    {
+        "id": 8,
+        "name": "Medical Check-up",
+        "img": "https://i.ibb.co/0MNVb6j/8-medical-checkup-8.png",
+        "titele": "Health is a state of complete physical, mental and social well-being and not merely the absence of disease or infirmity.",
+        "description": "While opinions vary, routine physical exams are generally recommended once a year if you're over the age of 50, and once every 3 years if you're younger than 50 and in good health. If you have a chronic disease or other ongoing health issues, you should see your doctor more often, no matter how old you are.",
+        "price": 75,
+        "discountprice": 65,
+        "accuracy": 96,
+        "totalcase": 1200,
+        "rating": 4
+    },
+    {
+        "id": 9,
+        "name": "Visit with Doctor",
+        "img": "https://i.ibb.co/Ct1MkzJ/9-doctorvisit9.jpg",
+        "titele": "Health is a state of complete physical, mental and social well-being and not merely the absence of disease or infirmity.",
+        "description": "Both doctor's appointment and doctor appointment are acceptable for describing a medical visit. In the first case the 's, instead of showing possession, is actually showing association; appointments of this nature are associated with doctors.",
+        "price": 12,
+        "discountprice": 8,
+        "accuracy": "***",
+        "totalcase": 2800,
+        "rating": 4.5
+    },
+    {
+        "id": 10,
+        "name": "Biochemistry test with Analyser Machine",
+        "img": "https://i.ibb.co/0mR9m5J/10-anlaizer10.png",
+        "titele": "Health is a state of complete physical, mental and social well-being and not merely the absence of disease or infirmity.",
+        "description": "How many tests are there in biochemistry The Clinical Biochemistry Laboratory's sophisticated, automated operations support both routine and urgent testing. The lab's efficient systems enable routine testing for more than 30 different tests using only a single tube of blood. The routine tests performed in the three testing units are itemized on this website.",
+        "price": 24,
+        "discountprice": 18,
+        "accuracy": 89,
+        "totalcase": 1670,
+        "rating": 4
+    }
+]

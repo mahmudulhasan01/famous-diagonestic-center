@@ -1,0 +1,25 @@
+
+.foo{
+    background-color: #0f4486;
+    height: 20px;
+}
+
+footer{
+    text-align: center;
+    color: white;
+    background-color: #041a35;
+    margin-top: 40px;
+    height: 300px;
+}
+.footer-icon{
+    font-size: 35px;
+    margin-top: 60px;
+    margin-left:20px;
+}
+.footer-info p{
+    color: rgb(142, 148, 187);
+}
+.footer-info p small{
+    font-weight: 600;
+    color: rgb(156, 156, 156);
+}
